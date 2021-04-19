@@ -1,0 +1,11 @@
+.attribution {
+  font-size: 1.3rem;
+  text-align: center;
+  color: $Very-dark-blackish-blue;
+  a {
+    color: $Moderate-violet;
+  }
+  @include media(desktop-s) {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,11 @@
+@mixin media($breakpoint) {
+  @if $breakpoint == desktop-s {
+    @media (min-width: 1100px) {
+      @content;
+    }
+  } @else if $breakpoint == desktop-l {
+    @media (min-width: 1300px) {
+      @content;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@mixin colors($bg-color) {
+  @if $bg-color == $White {
+    color: $Very-dark-grayish-blue;
+    background-color: $bg-color;
+  } @else {
+    color: $White;
+    background-color: $bg-color;
+  }
+}
